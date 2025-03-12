@@ -6,17 +6,17 @@ The Delphi Json Mapper Record is a native RTL technique from Delphi 11 Alexandri
 
 ```text
 
-   ✅ Dynamic JSON Mapping: Allows for automatic parsing and generation of records from arbitrary JSONs, without having to manually define each field.
+ ✅ Dynamic JSON Mapping: Allows for automatic parsing and generation of records from arbitrary JSONs, without having to manually define each field.
 
-   ✅ Bidirectional Conversion: Provides methods to serialize and deserialize JSONs to records using TJSONMarshal and TJSONUnMarshal.
+ ✅ Bidirectional Conversion: Provides methods to serialize and deserialize JSONs to records using TJSONMarshal and TJSONUnMarshal.
 
-   ✅ Support for Different JSON Types: Recognizes various types such as jtObject, jtArray, jtString, jtNumber, jtDate, jtDateTime, etc.
+ ✅ Support for Different JSON Types: Recognizes various types such as jtObject, jtArray, jtString, jtNumber, jtDate, jtDateTime, etc.
 
-   ✅ Delphi Code Generation: Provides methods to generate Delphi source code with mapped records, facilitating integration into projects.
+ ✅ Delphi Code Generation: Provides methods to generate Delphi source code with mapped records, facilitating integration into projects.
 
-   ✅ Customization by Attributes: Can use [JSONReflect] to control the mapping of specific fields when necessary.
+ ✅ Customization by Attributes: Can use [JSONReflect] to control the mapping of specific fields when necessary.
 
-   ✅ Use of RTTI: Dynamic parsing is done through RTTI, allowing access and manipulation of types at runtime.
+ ✅ Use of RTTI: Dynamic parsing is done through RTTI, allowing access and manipulation of types at runtime.
 
 ```
 
