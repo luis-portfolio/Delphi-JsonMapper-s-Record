@@ -1,4 +1,4 @@
-# Delphi 11.3 JsonMapper's between Record
+# Delphi 11.3 Json Mapper's between Record
 
 The Delphi Json Mapper Record is a native RTL technique from Delphi 11 Alexandria generating units for the record, which allows dynamic conversion between JSON structures and records.
 
