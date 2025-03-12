@@ -83,7 +83,7 @@ end;
 
 ```
 
-### Input JSON sample
+### Sample JSON input
 
 ```json
 {
@@ -101,7 +101,7 @@ end;
 }
 ```
 
-### Output this UNIT
+### Unit produced MyMappedRecordEntity.pas
 
 ```pascal
 unit MyMappedRecordEntity;
