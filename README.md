@@ -31,7 +31,6 @@ uses
 
 procedure TestJsonMapper;
 var
-  Mapper: iJsonMapper;
   JsonString: string;
   MappedRecord: TMyMappedRecord;
   I: Integer;
@@ -54,9 +53,8 @@ begin
       ' }                                                             ' ;
 
   // Creates the mapper and generates the record
-  Mapper := TJsonMapper.Create;
-
-  if Mapper.JsonString(JsonString)
+  if JsonMapperAdapter.Mapper
+            .JsonString(JsonString)
             .RootRecordName('TMyMappedRecord')
             .UnitName('MyMappedRecordEntity')
             .SaveToFile then
@@ -76,10 +74,10 @@ begin
 
   Writeln('Amigos:');
   for I := 0 to High(MappedRecord.Friends) do
-    Writeln(Format('  - Nome: %s | Idade: %.0f', [MappedRecord.Friends[I].Name, MappedRecord.Friends[I].Age]));
+    Writeln(Format('  - Name: %s | Age: %.0f', [MappedRecord.Friends[I].Name, MappedRecord.Friends[I].Age]));
 
   // Serialize the record back to JSON
-  Writeln('JSON Gerado:');
+  Writeln('Generated JSON: ');
   Writeln(MappedRecord.StringiFy);
 end;
 
